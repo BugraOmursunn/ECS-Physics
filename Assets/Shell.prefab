@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3990170793689089784
+--- !u!1 &2504897691102215611
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,48 +8,49 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3170724218016405733}
-  - component: {fileID: 8688961218927729043}
-  - component: {fileID: 8853910131820347836}
-  - component: {fileID: 1646318378}
-  - component: {fileID: 1646318379}
-  - component: {fileID: -5504355425523429335}
+  - component: {fileID: 1484066873388634024}
+  - component: {fileID: 7621058458872067486}
+  - component: {fileID: 4251390493411625319}
+  - component: {fileID: 5900492023692244632}
+  - component: {fileID: -6808211313739473177}
+  - component: {fileID: -976342070075152446}
+  - component: {fileID: 1957535213923923436}
   m_Layer: 0
-  m_Name: DuckPrefab
+  m_Name: Shell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3170724218016405733
+--- !u!4 &1484066873388634024
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3990170793689089784}
+  m_GameObject: {fileID: 2504897691102215611}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_LocalPosition: {x: -5.7055326, y: 3.7, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &8688961218927729043
+--- !u!33 &7621058458872067486
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3990170793689089784}
-  m_Mesh: {fileID: -3858940800246864737, guid: 82c1697593b83490ab670e57a08c9a14, type: 3}
---- !u!23 &8853910131820347836
+  m_GameObject: {fileID: 2504897691102215611}
+  m_Mesh: {fileID: -4974468161004867859, guid: 0a5565a2cb6334978aac7526cf1af8d8, type: 3}
+--- !u!23 &4251390493411625319
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3990170793689089784}
+  m_GameObject: {fileID: 2504897691102215611}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -61,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: afbaab3d1240e4cc4b75d9d7f4daa520, type: 2}
+  - {fileID: 2100000, guid: 7a6306e8529ae459ca9678c77b26bbaf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -82,86 +83,13 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &1646318378
+--- !u!114 &5900492023692244632
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3990170793689089784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b275e5f92732148048d7b77e264ac30e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ShapeType: 2
-  m_PrimitiveCenter:
-    x: -13.440704
-    y: 86.949684
-    z: -3.7015
-  m_PrimitiveSize:
-    x: 165.4784
-    y: 165.4784
-    z: 165.4784
-  m_PrimitiveOrientation:
-    Value:
-      x: -0
-      y: 0
-      z: 0
-    RotationOrder: 4
-  m_Capsule:
-    Height: 165.4784
-    Radius: 82.7392
-    Axis: 0
-  m_Cylinder:
-    Height: 165.4784
-    Radius: 82.7392
-    Axis: 2
-  m_CylinderSideCount: 20
-  m_SphereRadius: 82.7392
-  m_MinimumSkinnedVertexWeight: 0.1
-  m_ConvexHullGenerationParameters:
-    m_SimplificationTolerance: 2.4821758
-    m_BevelRadius: 0.05
-    m_MinimumAngle: 2.5000002
-  m_CustomMesh: {fileID: 0}
-  m_ForceUnique: 0
-  m_Material:
-    m_SupportsTemplate: 1
-    m_Template: {fileID: 0}
-    m_IsTrigger:
-      m_Override: 0
-      m_Value: 0
-    m_Friction:
-      m_Override: 0
-      m_Value:
-        Value: 0.5
-        CombineMode: 0
-    m_Restitution:
-      m_Override: 0
-      m_Value:
-        Value: 0.14
-        CombineMode: 2
-    m_BelongsTo:
-      m_Override: 0
-      m_Value: 0100000000000000000000000000000000000000000000000000000000000000
-    m_CollidesWith:
-      m_Override: 0
-      m_Value: 0101010101010101010101010101010101010101010101010101010101010101
-    m_RaisesCollisionEvents:
-      m_Override: 0
-      m_Value: 0
-    m_CustomTags:
-      m_Override: 0
-      m_Value: 0000000000000000
-  m_ConvexRadius_Deprecated: -1
---- !u!114 &1646318379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3990170793689089784}
+  m_GameObject: {fileID: 2504897691102215611}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ccea9ea98e38942e0b0938c27ed1903e, type: 3}
@@ -169,8 +97,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_MotionType: 0
   m_Mass: 1
-  m_LinearDamping: 0.01
-  m_AngularDamping: 0.05
+  m_LinearDamping: 0
+  m_AngularDamping: 0
   m_InitialLinearVelocity:
     x: 0
     y: 0
@@ -179,8 +107,8 @@ MonoBehaviour:
     x: 0
     y: 0
     z: 0
-  m_GravityFactor: 1
-  m_OverrideDefaultMassDistribution: 1
+  m_GravityFactor: 0
+  m_OverrideDefaultMassDistribution: 0
   m_CenterOfMass:
     x: 0
     y: 0
@@ -204,16 +132,106 @@ MonoBehaviour:
     Tag05: 0
     Tag06: 0
     Tag07: 0
---- !u!114 &-5504355425523429335
+--- !u!114 &-6808211313739473177
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3990170793689089784}
+  m_GameObject: {fileID: 2504897691102215611}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1ef0cfe4719348e3b23e3f3c7690af2, type: 3}
+  m_Script: {fileID: 11500000, guid: b275e5f92732148048d7b77e264ac30e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shouldDestroy: 0
+  m_ShapeType: 1
+  m_PrimitiveCenter:
+    x: 0
+    y: 0.000000014901161
+    z: 0.19800001
+  m_PrimitiveSize:
+    x: 0.29870814
+    y: 0.29870814
+    z: 0.5252612
+  m_PrimitiveOrientation:
+    Value:
+      x: 0
+      y: 0
+      z: 1
+    RotationOrder: 4
+  m_Capsule:
+    Height: 0.5252612
+    Radius: 0.14935407
+    Axis: 2
+  m_Cylinder:
+    Height: 0.5252612
+    Radius: 0.14935407
+    Axis: 2
+  m_CylinderSideCount: 20
+  m_SphereRadius: 0.2626306
+  m_MinimumSkinnedVertexWeight: 0.1
+  m_ConvexHullGenerationParameters:
+    m_SimplificationTolerance: 0.01
+    m_BevelRadius: 0.029870812
+    m_MinimumAngle: 2.5000002
+  m_CustomMesh: {fileID: 0}
+  m_ForceUnique: 0
+  m_Material:
+    m_SupportsTemplate: 1
+    m_Template: {fileID: 0}
+    m_IsTrigger:
+      m_Override: 0
+      m_Value: 0
+    m_Friction:
+      m_Override: 0
+      m_Value:
+        Value: 0.5
+        CombineMode: 0
+    m_Restitution:
+      m_Override: 0
+      m_Value:
+        Value: 0
+        CombineMode: 2
+    m_BelongsTo:
+      m_Override: 0
+      m_Value: 0001000000000000000000000000000000000000000000000000000000000000
+    m_CollidesWith:
+      m_Override: 0
+      m_Value: 0100000000000000000000000000000000000000000000000000000000000000
+    m_RaisesCollisionEvents:
+      m_Override: 0
+      m_Value: 1
+    m_CustomTags:
+      m_Override: 0
+      m_Value: 0000000000000000
+  m_ConvexRadius_Deprecated: -1
+--- !u!114 &-976342070075152446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2504897691102215611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f68ad6319c6ca4384ab8fccad879c996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 50
+  collisionEffect:
+    x: 0
+    y: 1000
+    z: 0
+--- !u!114 &1957535213923923436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2504897691102215611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfbdc4e806ad241219d171500a4e6fd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeLeft: 2
